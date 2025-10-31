@@ -40,16 +40,38 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-theme-50: #f8fafc;
+  --color-theme-100: #f1f5f9;
+  --color-theme-200: #e2e8f0;
+  --color-theme-300: #cbd5e1;
+  --color-theme-400: #94a3b8;
+  --color-theme-500: #64748b;
+  --color-theme-600: #475569;
+  --color-theme-700: #334155;
+  --color-theme-800: #1e293b;
+  --color-theme-900: #0f172a;
+  --color-theme-950: #020617;
 }
 
 :root {
+  --theme-color-50: #f8fafc;
+  --theme-color-100: #f1f5f9;
+  --theme-color-200: #e2e8f0;
+  --theme-color-300: #cbd5e1;
+  --theme-color-400: #94a3b8;
+  --theme-color-500: #64748b;
+  --theme-color-600: #475569;
+  --theme-color-700: #334155;
+  --theme-color-800: #1e293b;
+  --theme-color-900: #0f172a;
+  --theme-color-950: #020617;
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #0f172a;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
+  --popover: var(--theme-color-700);
+  --popover-foreground: oklch(1 0 0);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
