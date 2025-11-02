@@ -92,7 +92,7 @@
         <!-- Login Button -->
         <NavigationMenuItem class="flex">
           <NavigationMenuLink href="/search">
-            <Button class="px-4 bg-sky-600 hover:bg-sky-500">
+            <Button class="px-4 bg-sky-500 hover:bg-sky-600">
               <span class="lg:block hidden font-bold">Login</span>
               <Icon icon="mdi:account" class="size-5"></Icon>
             </Button>
