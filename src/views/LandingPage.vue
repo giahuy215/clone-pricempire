@@ -65,11 +65,11 @@
           </div>
           <!-- Badges -->
           <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <template v-for="bad in badges" :key="bad.title">
+            <template v-for="badge in heroesBadge" :key="badge.title">
               <BadgesHeroes
-                :title="bad.title"
-                :description="bad.description"
-                :icon="bad.icon"
+                :title="badge.title"
+                :description="badge.description"
+                :icon="badge.icon"
               />
             </template>
           </div>
@@ -100,31 +100,28 @@
         </div>
       </div>
     </div>
+    <!-- Services -->
+    <div class="mt-24 grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8">
+      <template v-for="ser in services" :key="ser.color">
+        <CardService
+          :color="ser.color"
+          :icon="ser.icon"
+          :service="ser.service"
+          :description="ser.description"
+        />
+      </template>
+    </div>
+    <!-- Market Insights -->
   </div>
 </template>
 
 <script setup lang="ts">
 import BadgesHeroes from "@/components/BadgesHeroes.vue";
+import CardService from "@/components/CardService.vue";
 import Navbar from "@/components/Navbar.vue";
+import { services } from "@/data/services";
+import { heroesBadge } from "@/data/badges";
 import { Icon } from "@iconify/vue";
-
-const badges = [
-  {
-    title: "$2.5B+",
-    description: "Market Cap",
-    icon: "solar:dollar-linear",
-  },
-  {
-    title: "15K+",
-    description: "Items Tracked",
-    icon: "tabler:brand-google-analytics",
-  },
-  {
-    title: "Real-time",
-    description: "Price Updates",
-    icon: "solar:clock-circle-outline",
-  },
-];
 </script>
 
 <style scoped></style>
