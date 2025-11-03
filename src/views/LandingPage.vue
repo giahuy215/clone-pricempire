@@ -1,7 +1,7 @@
 <template>
   <div class="mt-28 px-10">
     <Navbar></Navbar>
-    <!-- Heroes -->
+    <!-- Hero -->
     <div
       class="rounded-2xl shadow-xl bg-linear-to-br from-theme-900 to-theme-800
         overflow-hidden p-8"
@@ -65,7 +65,7 @@
           </div>
           <!-- Badges -->
           <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <template v-for="badge in heroesBadge" :key="badge.title">
+            <template v-for="badge in heroBadge" :key="badge.title">
               <BadgesHeroes
                 :title="badge.title"
                 :description="badge.description"
@@ -120,7 +120,7 @@ import BadgesHeroes from "@/components/BadgesHeroes.vue";
 import CardService from "@/components/CardService.vue";
 import Navbar from "@/components/Navbar.vue";
 import { services } from "@/data/services";
-import { heroesBadge } from "@/data/badges";
+import { heroBadge } from "@/data/badges";
 import { Icon } from "@iconify/vue";
 </script>
 

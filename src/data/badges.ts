@@ -1,6 +1,6 @@
-import type { HeroesBadge } from "@/constants/badges";
+import type { HeroBadge } from "@/constants/badges";
 
-export const heroesBadge: HeroesBadge[] = [
+export const heroBadge: HeroBadge[] = [
   {
     title: "$2.5B+",
     description: "Market Cap",
