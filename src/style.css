@@ -142,4 +142,8 @@
   body {
     @apply bg-background text-foreground;
   }
+  p,
+  li {
+    line-height: 1.75rem;
+  }
 }

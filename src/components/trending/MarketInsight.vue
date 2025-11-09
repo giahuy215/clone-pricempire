@@ -33,7 +33,7 @@
         <p>Our platform offers sophisticated tools for market analysis:</p>
         <div class="grid md:grid-cols-2 gap-4">
           <template v-for="item in tools" :key="item.name">
-            <div class="rounded-lg bg-theme-700 px-4 py-10">
+            <div class="rounded-lg bg-theme-700 px-4 pt-10 pb-8.5">
               <h4 class="mb-2 font-semibold text-theme-100">
                 {{ item.name }}
               </h4>
@@ -114,7 +114,7 @@ const tools = [
 const insights = [
   {
     icon: "heroicons:light-bulb",
-    name: "Identify Trending Items Early",
+    name: "Identify trending items early",
   },
   {
     icon: "heroicons:chart-pie",
