@@ -2,16 +2,16 @@
   <div class="mt-28 px-10">
     <Header />
     <HeroSection />
-    <!-- Services -->
     <ServiceSection />
-    <!-- Market Insights -->
+    <MarketInsight />
   </div>
 </template>
 
 <script setup lang="ts">
 import Header from "@/components/Header.vue";
-import HeroSection from "@/components/landing/HeroSection.vue";
-import ServiceSection from "@/components/landing/ServiceSection.vue";
+import HeroSection from "@/components/trending/HeroSection.vue";
+import MarketInsight from "@/components/trending/MarketInsight.vue";
+import ServiceSection from "@/components/trending/ServiceSection.vue";
 </script>
 
 <style scoped></style>
