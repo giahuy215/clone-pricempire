@@ -100,7 +100,7 @@
 </template>
 
 <script setup lang="ts">
-import BadgesHeroes from "@/components/BadgesHeroes.vue";
+import BadgesHeroes from "@/components/common/BadgesHeroes.vue";
 import { heroBadge } from "@/data/badges";
 import { Icon } from "@iconify/vue";
 </script>

@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { services } from "@/data/services";
-import CardService from "@/components/CardService.vue";
+import CardService from "@/components/common/CardService.vue";
 </script>
 
 <style scoped></style>

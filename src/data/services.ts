@@ -1,4 +1,4 @@
-import type { Service } from "@/constants/services";
+import type { Service } from "@/models/ServiceModel";
 
 export const services: Service[] = [
   {

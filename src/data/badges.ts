@@ -1,4 +1,4 @@
-import type { HeroBadge } from "@/constants/badges";
+import type { HeroBadge } from "@/models/BadgeModel";
 
 export const heroBadge: HeroBadge[] = [
   {
